@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: BLPersonalityInsightsNode1
+  host: BLPersonalityInsightsNode1
+  disk_quota: 1024M
+  services:
+  - BLPersonalityInsightsNode1-personality_insights
